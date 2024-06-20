@@ -129,7 +129,7 @@ body {
 .gallery-item {
   width: calc(33.33% - 1em);
   height: 250px;
-  object-fit: cover;
+  object-fit: contain;
   padding: 0.5em;
 }
 #gallery .gallery-item:nth-child(9n + 7),
