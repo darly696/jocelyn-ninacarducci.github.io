@@ -216,8 +216,8 @@ body {
 .picture.right::before {
   content: " ";
   background-color: #beb45a;
-  width: 374px;
-  height: 329px;
+  width: 320px;
+  height: 319px;
   position: absolute;
   bottom: 0;
   right: 0;
