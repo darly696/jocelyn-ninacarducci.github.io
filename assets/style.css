@@ -42,8 +42,9 @@ body {
   width: 20px;
 }
 .carousel-item img {
-  width: 80%;
+  max-width: 80%;
   height: auto;
+  margin: 0 auto;
 }
 
 #about {
