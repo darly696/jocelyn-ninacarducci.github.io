@@ -1,8 +1,4 @@
-body {
-  max-width: 1220px;
-  margin: auto;
-}
-* {
+body * {
   font-family: "Inter";
   font-style: normal;
 }
@@ -42,7 +38,7 @@ body {
   width: 20px;
 }
 .carousel-item img {
-  max-width: 80%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
 }
@@ -73,7 +69,7 @@ body {
 }
 
 .picture img {
-  width: 100%;
+  width: 80%;
 }
 #about-me {
   flex: 2;
@@ -96,10 +92,7 @@ body {
 
 #gallery {
   /*	min-height: 100vh; */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
+
   position: relative;
 }
 .title {
@@ -126,6 +119,8 @@ body {
   width: calc(33.33% - 20px);
   margin-bottom: 20px;
   overflow: hidden;
+  width: 500px;
+  height: 400px;
 }
 .gallery-item picture {
   display: block;
